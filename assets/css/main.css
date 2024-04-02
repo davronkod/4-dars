@@ -1,0 +1,257 @@
+@font-face {
+    font-family: SemiBold;
+    src: url("../fonts/RedHatDisplay-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Regular;
+    src: url("../fonts/RedHatDisplay-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: o auto;
+    padding: 0px 20px;
+}
+
+.header_logo {
+    width: 130px;
+    height: 39px;
+    top: -10px;
+    left: 165px;
+    position: relative;
+}
+
+.header_img {
+    width: 148.28px;
+    height: 148.28px;
+    top: 21.6px;
+    left: 835px;
+    position: relative;
+}
+
+.main_h1 {
+    width: 650px;
+    height: 190px;
+    top: 253px;
+    left: 165px;
+    font-family: SemiBold;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 95.47px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    position: relative;
+}
+
+.tele1 {
+    width: 514px;
+    height: 729px;
+    top: -200px;
+    left: 842px;
+    position: relative;
+}
+
+.text1 {
+    width: 657px;
+    height: 66px;
+    font-family: Regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 160px;
+}
+
+.btn1 {
+    width: 181px;
+    height: 60px;
+    position: relative;
+    border-radius: 10px;
+    background: #0F0F54;
+    margin-left: -350px;
+    position: absolute;
+    margin-top: 400px;
+    color: #ffff;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid transparent;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    transition: .5s;
+    color: #0F0F54;
+    border: 1px solid #0F0F54;
+}
+
+.bilaguzug {
+    width: 98px;
+    height: 98px;
+    margin-left: -450px;
+    margin-top: 550px;
+    position: absolute;
+}
+
+.yulduz {
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 590px;
+}
+
+.bg {
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+.main_img {
+    margin-top: 700px;
+    position: absolute;
+    margin-left: -750px;
+}
+
+.binafsha {
+    width: 1111px;
+    height: 480px;
+    border-radius: 10px;
+    background: #0F0F54;
+    margin-top: 400px;
+    margin-left: 160px;
+}
+
+.tele2 {
+    width: 495px;
+    height: 773px;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: -200px;
+}
+
+.q1 {
+    width: 310px;
+    height: 60px;
+    font-family: SemiBold;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59.67px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.text2 {
+    width: 540px;
+    height: 138px;
+    font-family: Regular;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 230px;
+}
+
+.tele3 {
+    width: 600px;
+    height: 571px;
+    position: absolute;
+    margin-top: 800px;
+}
+
+.q2 {
+    width: 590px;
+    height: 60px;
+    font-family: SemiBold;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 59.67px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #000;
+    margin-top: 940px;
+    position: absolute;
+    margin-left: 650px;
+}
+
+.q3 {
+    width: 540px;
+    height: 171px;
+    font-family: Regular;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    position: absolute;
+    margin-top: 1030px;
+    margin-left: 650px;
+}
+
+.bilak {
+    margin-top: 1400px;
+}
+
+.sariqroq {
+    width: 1110px;
+    height: 480px;
+    border-radius: 10px;
+    background-color: #F9E0C7;
+    margin-top: 1400px;
+    position: absolute;
+    margin-left: 160px;
+}
+
+.png16 {
+    margin-left: 620px;
+    position: absolute;
+    margin-top: -220px;
+}
+
+.q4 {
+    color: #000;
+    font-family: SemiBold;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 59.67px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.q5 {
+    width: 540px;
+    height: 172px;
+    font-family: Regular;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 70px;
+}
+
+.yulduz2 {
+    margin-left: 1000px;
+    margin-top: 580px;
+    position: absolute;
+    width: 88px;
+    height: 88px;
+}
